@@ -6,4 +6,4 @@ before_script:
  - composer install
  deploy:
   provider: heroku:git
-  api_key: 1ab79303-2041-4728-a0ef-e0b95edf03f0
+  api_key: <encrypted api_key>
