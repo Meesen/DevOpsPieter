@@ -12,6 +12,13 @@ class Calculator
     public function subtract($a,$b){
         return $a - $b;
     }
+    
+    public function divide($a,$b){
+        if($b != 0){
+            return $a / $b;
+        }else{
+            return "kan niet delen door 0";
+    }
 }
 
 ?>
