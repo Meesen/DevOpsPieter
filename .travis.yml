@@ -4,3 +4,6 @@ php:
 before_script:
  - composer self-update
  - composer install
+ deploy:
+  provider: heroku:git
+  api_key: 1ab79303-2041-4728-a0ef-e0b95edf03f0
