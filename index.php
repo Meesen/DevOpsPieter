@@ -65,11 +65,11 @@
                         the result of other calculator apps.";
             }
             
-            if(isset($_POST['multiply'])){
+            if(isset($_POST['divide'])){
                 $n1 = $_POST['number1'];
                 $n2 = $_POST['number2'];
                 $calc = new Calculator();
-                $result = $calc->multiply($n1, $n2);
+                $result = $calc->divide($n1, $n2);
                 if($n2 != 0){
                     echo "<h2>The result of dividing $n1 and $n2 is $result</h2>";
                 }else{
